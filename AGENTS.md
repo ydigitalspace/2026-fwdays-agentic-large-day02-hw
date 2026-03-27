@@ -92,5 +92,3 @@ Changes to protected files require dependency awareness, full relevant test exec
   - `docs/product/domain-glossary.md`
   - `docs/technical/architecture.md`
   - `docs/memory/*`
-
-

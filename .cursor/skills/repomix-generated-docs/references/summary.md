@@ -33,7 +33,7 @@ This skill contains the following reference files:
 - Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
 - Files matching patterns in .gitignore are excluded
 - Files matching default ignore patterns are excluded
-- Files are sorted by Git change count (files with more changes are at the bottom)
+- Default Repomix ordering: files sorted by Git change frequency with **most-changed first** (see Repomix `--no-git-sort-by-changes` to disable)
 
 ## Statistics
 

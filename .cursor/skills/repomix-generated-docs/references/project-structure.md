@@ -1,5 +1,12 @@
 # Directory Structure
 
+<!--
+  Generated snapshot (do not edit by hand; regenerate from repo root).
+  generated_at: 2026-03-27
+  tool: repomix v1.13.1
+  command: npx repomix --skill-generate excalidraw-documentation --skill-output ".cursor/skills/repomix-generated-docs" --force
+-->
+
 ```text
 .coderabbit.yaml (234 lines)
 .codesandbox/Dockerfile (5 lines)
