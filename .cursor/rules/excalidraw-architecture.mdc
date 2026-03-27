@@ -9,13 +9,13 @@ alwaysApply: false
 ## State Management
 
 - Use custom state via `actionManager` (do not introduce Redux/Zustand/MobX).
-- Perform state updates through `actionManager.dispatch()` only.
+- Preserve the existing action/update flow patterns in `packages/excalidraw/actions/` and related App update paths.
 - Keep state aligned with `AppState` from `packages/excalidraw/types.ts`.
 
 ## Rendering
 
 - Keep drawing in Canvas 2D rendering (do not use React DOM for drawing).
-- Preserve render pipeline: `Scene -> renderScene() -> canvas context`.
+- Preserve the existing scene rendering pipeline in `packages/excalidraw/scene/` (Scene-driven canvas rendering).
 - Do not add `react-konva`, `fabric.js`, or `pixi.js`.
 
 ## Dependencies

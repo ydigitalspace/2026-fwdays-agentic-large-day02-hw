@@ -53,9 +53,9 @@ yarn fix             # lint/format fixes
 
 Do not modify these files without explicit approval:
 
-- `packages/excalidraw/scene/renderer.ts`
+- `packages/excalidraw/scene/Renderer.ts`
 - `packages/excalidraw/data/restore.ts`
-- `packages/excalidraw/actions/manager.ts`
+- `packages/excalidraw/actions/manager.tsx`
 - `packages/excalidraw/types.ts`
 
 Changes to protected files require dependency awareness, full relevant test execution, and manual QA notes.

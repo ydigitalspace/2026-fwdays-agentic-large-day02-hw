@@ -8,10 +8,10 @@ alwaysApply: false
 
 ## Components
 
-- Use functional components with hooks only (no class components).
-- Name props types as `{ComponentName}Props`.
-- Use named exports only (no default exports).
-- Keep colocated tests as `ComponentName.test.tsx`.
+- Prefer functional components with hooks for new UI code.
+- Prefer naming props types as `{ComponentName}Props`.
+- Prefer named exports for shared modules; follow local file conventions when the module already uses default export.
+- Tests may be colocated or centralized under `packages/excalidraw/tests/` depending on existing project pattern.
 
 ## TypeScript
 

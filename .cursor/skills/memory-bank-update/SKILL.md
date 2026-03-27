@@ -20,13 +20,14 @@ Triggered by: "update memory bank", "sync docs",
 
 1. Run `git diff --stat HEAD~5` to identify recent changes
 2. Read relevant Memory Bank files in `docs/memory/`
-3. For each changed area, update the matching file:
+3. Cross-check impacted Excalidraw areas (for example `packages/excalidraw/`, `packages/element/`, `excalidraw-app/`) and align docs with `docs/spec/SSD.md`.
+4. For each changed area, update the matching file:
    - New feature -> `progress.md` + `activeContext.md`
    - Architecture change -> `systemPatterns.md` + `decisionLog.md`
    - Dependency change -> `techContext.md`
    - Scope change -> `projectbrief.md` + `productContext.md`
-4. Verify updated content against actual source code
-5. Ensure each file stays under 200 lines
+5. Verify updated content against actual source code
+6. Ensure each file stays under 200 lines
 
 ## Outputs
 
